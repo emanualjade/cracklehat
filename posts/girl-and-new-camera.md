@@ -1,5 +1,5 @@
 ---
-title: "Girl and New Camera"
+title: "Girl and new camera"
 category: "photography"
 date: "2020-12-23"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Black Heart of Mine"
+title: "Black heart of mine"
 category: "music"
 date: "2020-12-23"
 ---
