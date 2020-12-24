@@ -1,12 +1,13 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
+import Nav from './Nav';
 
 const name = "CrackleHat";
 export const siteTitle = "A place for random things";
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, root }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,7 +26,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        {home ? (
+        {root ? (
           <>
             <img
               src="/images/logo.svg"
@@ -53,8 +54,10 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      {root ? <Nav /> : null}
+
       <main>{children}</main>
-      {!home && (
+      {!root && (
         <div className={styles.backToHome}>
           <Link href="/">
             <a>← Back to home</a>

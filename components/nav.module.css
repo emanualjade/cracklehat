@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  border-bottom: 1px solid #e8e8e8;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.item {
+  margin-right: 15px;
+}
+.item a {
+  font-size: 14px;
+  color: #757575;
+  text-decoration: none;
+}
+.item a:hover {
+  color: #000000;
+}
+.item:last-child {
+  margin-right: 0;
+}
+
+.active:after {
+  display: block;
+  margin-bottom: -1px;
+  padding-top: 12px;
+  border-bottom: 1px solid #0070f3;
+  content: "";
+}
