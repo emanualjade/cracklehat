@@ -58,7 +58,7 @@ export default function Category({ allPostsByCategoryData }) {
                     marginRight: "15px",
                   }}
                 >
-                  <img src={thumbnail} style={{ width: "100%" }} />
+                  <img src={thumbnail} style={{ width: "100%", borderRadius: "5px" }} />
                 </a>
               </Link>
               <div>
