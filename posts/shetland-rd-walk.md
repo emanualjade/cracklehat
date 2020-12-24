@@ -2,6 +2,7 @@
 title: "Photos from a walk on Shetland"
 category: "photography"
 date: "2020-12-23"
+thumbnail: "/images/photography-thumb.svg"
 ---
 
 ![alt text](/images/shetland-rd-walk/baby-cow.JPG "Baby Cow")

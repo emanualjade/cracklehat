@@ -2,6 +2,7 @@
 title: "Girl and new camera"
 category: "photography"
 date: "2020-12-23"
+thumbnail: "/images/photography-thumb.svg"
 ---
 
 Just picked up a new camera. First day out giving it a go!

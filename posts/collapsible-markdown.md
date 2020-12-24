@@ -2,6 +2,7 @@
 title: "Collapsible markdown?"
 category: "code"
 date: "2020-12-23"
+thumbnail: "/images/code-thumb.svg"
 ---
 
 

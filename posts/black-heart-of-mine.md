@@ -2,6 +2,7 @@
 title: "Black heart of mine"
 category: "music"
 date: "2020-12-23"
+thumbnail: "/images/music-thumb.svg"
 ---
 
 <iframe

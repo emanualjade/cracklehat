@@ -1,7 +1,8 @@
 ---
-title: "The cousins"
+title: "Cousins photo day"
 category: "photography"
 date: "2020-12-23"
+thumbnail: "/images/photography-thumb.svg"
 ---
 
 ![alt text](/images/cousins/cousins-1.JPG "Cousins")
