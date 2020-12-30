@@ -29,7 +29,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, category, thumbnail }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a style={{ width: "90px", display: "block", marginRight: "15px" }}>
+                <a style={{ flexShrink: 0, width: "90px", display: "block", marginRight: "15px" }}>
                   <img src={thumbnail} style={{ width: "100%", borderRadius: "5px" }} />
                 </a>
               </Link>

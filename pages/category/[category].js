@@ -53,6 +53,7 @@ export default function Category({ allPostsByCategoryData }) {
               <Link href={`/posts/${id}`}>
                 <a
                   style={{
+                    flexShrink: 0,
                     width: "90px",
                     display: "block",
                     marginRight: "15px",
